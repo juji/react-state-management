@@ -7,7 +7,7 @@ import { useCounter } from '@/stores/useCounter'
 import { CounterContextProvider } from '@/stores/CounterContext'
 import ContextCounter from './Counter/ContextCounter'
 
-export default function Container(){
+export default function Home(){
 
   const {
     count,

@@ -1,5 +1,5 @@
 
-import style from './counter.module.css'
+import style from './counter.module.scss'
 
 
 export default function Counter({

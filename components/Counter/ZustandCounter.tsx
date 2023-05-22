@@ -1,4 +1,4 @@
-import style from './counter.module.css'
+import style from './counter.module.scss'
 import { useCounterStore } from '@/stores/zustand'
 // import Counter from './index'
 

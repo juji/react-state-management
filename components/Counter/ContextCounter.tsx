@@ -1,4 +1,4 @@
-import style from './counter.module.css'
+import style from './counter.module.scss'
 import { CounterContext } from '@/stores/CounterContext'
 import { useContext } from 'react'
 

@@ -1,11 +1,10 @@
 
-import styles from './page.module.css'
-import Container from '@/components/Container'
+
+import HomeContent from '@/components/Home'
+
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Container />
-    </main>
+    <HomeContent />
   )
 }

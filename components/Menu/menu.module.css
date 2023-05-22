@@ -1,0 +1,9 @@
+.menu a{
+  text-decoration: underline;
+  margin: 0 5px;
+  color: rgb(81, 147, 234);
+}
+
+.menu a.active{
+  color: rgb(81, 234, 214);
+}

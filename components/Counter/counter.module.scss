@@ -1,0 +1,21 @@
+
+.counter{
+  display:flex;
+  margin: 13px 0;
+
+  button{
+    flex: 0 0 auto;
+    padding: 13px 21px;
+    cursor: pointer;
+  }
+
+  span{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+  }
+  
+}
+
