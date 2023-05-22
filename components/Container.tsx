@@ -18,17 +18,21 @@ export default function Container(){
   return <CounterContextProvider><div style={{padding: '21px'}}>
     <h1>hooks vs Context vs zustand</h1>
     <br />
+    
     <p>- <a
       style={{textDecoration: 'underline'}}
       target="_blank"
       href="https://react.dev/learn/react-developer-tools"
     >Install React Developer Tools?</a></p><br />
+
     <p>- <a 
       style={{textDecoration: 'underline'}}
       target="_blank"
       href="https://giphy.com/embed/jnaxOeY9l75Yzf4HT6">
       How to highlight updates when components render?</a></p><br />
+      
     <p>- Highlight not working? try refreshing the page.</p>
+    
     <br />
     <br /><br />
 
