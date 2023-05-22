@@ -1,5 +1,5 @@
-import { useCounterStore } from '@/stores/zustand'
-import { CounterContext } from '@/stores/CounterContext'
+import { useCounterStore } from './stores/zustand'
+import { CounterContext } from './stores/CounterContext'
 import { useContext } from 'react'
 
 const ZustandValue = () => {

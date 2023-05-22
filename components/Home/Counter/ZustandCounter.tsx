@@ -1,5 +1,5 @@
 import style from './counter.module.scss'
-import { useCounterStore } from '@/stores/zustand'
+import { useCounterStore } from '@/components/Home/stores/zustand'
 // import Counter from './index'
 
 const ZustandValue = () => {

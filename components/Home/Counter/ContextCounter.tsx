@@ -1,5 +1,5 @@
 import style from './counter.module.scss'
-import { CounterContext } from '@/stores/CounterContext'
+import { CounterContext } from '@/components/Home/stores/CounterContext'
 import { useContext } from 'react'
 
 // using multiple child like this will be bad

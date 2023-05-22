@@ -3,8 +3,8 @@
 import ZustandCounter from './Counter/ZustandCounter'
 import Counter from './Counter'
 import Inside from './Inside'
-import { useCounter } from '@/stores/useCounter'
-import { CounterContextProvider } from '@/stores/CounterContext'
+import { useCounter } from './stores/useCounter'
+import { CounterContextProvider } from './stores/CounterContext'
 import ContextCounter from './Counter/ContextCounter'
 
 export default function Home(){
