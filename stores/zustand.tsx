@@ -8,7 +8,7 @@ interface CounterState {
   setRandomVal: ( str: string ) => void
 }
 
-export const useCounterStore = create<CounterState>((set) => ({
+export const useCounterStore = create<CounterState>()((set) => ({
   count: 0,
   randomVal: 'this is random val',
   increase: () => set((state) => ({ count: state.count+1 })),
